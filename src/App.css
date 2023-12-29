@@ -7,25 +7,36 @@
   }
   
   .ce-chat-list {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: black !important;
   }
   
   .ce-chats-container {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: black  !important;
   }
   
   .ce-active-chat-card {
-    background-color: #cabcdc !important;
-    border: 4px solid #cabcdc !important;
+    background-color:rgb(54, 52, 52) !important;
+    border: 4px solid rgb(54, 52, 52) !important;
     border-radius: 0px !important;
   }
   
   .ce-chat-subtitle-text {
-    color: #595959 !important;
+    color: white!important;
+  }
+
+  .ce-chat-title-text {
+    color: white!important;
+  }
+
+  #new-chat-plus-button{
+    background-color: #4a9553;
   }
   
   .ce-chat-form-container {
     padding-bottom: 20px !important;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black !important;
   }
   
   .ce-text-input {
@@ -35,7 +46,7 @@
   
   .ce-primary-button {
     border-radius: 6px !important;
-    background-color: #7554a0 !important;
+    background-color: #4a9553 !important;
     position: relative;
     bottom: 1px;
   }
@@ -46,7 +57,7 @@
   }
   
   .ce-settings {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: black !important;
   }
   
   .ce-autocomplete-input {
@@ -57,24 +68,31 @@
   .ce-autocomplete-options {
     border-radius: 6px !important;
     border: 1px solid #3b2a50 !important;
-    background-color: white !important;
+    background-color: black !important;
   }
   
   .ce-chat-settings-container {
     padding-top: 12px !important;
+    
   }
   
   .ce-chat-avatars-row {
     display: none !important;
   }
+  .ce-section-title-container{
+    background-color: #4f9557 !important;
+  }
   
-  /* CUSTOM FEED */
+  /*.ce-input{
+    background-color: #4f9557;
+  }
+   CUSTOM FEED */
   
   .chat-feed {
     height: 100%;
     width: 100%;
     overflow: scroll;
-    background-color: rgb(240, 240, 240);
+    background-color: black;
   }
   
   .chat-title-container {
@@ -84,13 +102,13 @@
   }
   
   .chat-title {
-    color: #7554a0;
+    color:#008F11;
     font-weight: 800;
     font-size: 24px;
   }
   
   .chat-subtitle {
-    color: #7554a0;
+    color: #4a9553;
     font-weight: 600;
     font-size: 12px;
     padding-top: 4px;
@@ -158,13 +176,13 @@
     bottom: 0px;
     width: calc(100% - 36px);
     padding: 18px;
-    background-color: rgb(240, 240, 240);
+    background-color: black;
   }
   
   .message-form {
     overflow: hidden;
     border-radius: 6px;
-    border: 1px solid #3b2a50;
+    border: 1px solid #008F11;
     background-color: white;
   }
   
@@ -196,12 +214,14 @@
     top: 1px;
     position: relative;
     transform: rotate(-90deg);
+    color: black;
   }
   
   .picture-icon {
     top: 1px;
     position: relative;
     font-size: 14px;
+    
   }
   
   /* FORM STYLES */
@@ -217,13 +237,17 @@
   .wrapper {
     height: 100vh;
       width: 100%;
-    background: rgb(117,84,160);
-    background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
+    background:  #0D0208;
+    
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+  .wrapper h1{
+       color:#008F11
+  }
+
   .input {
     color: #333;
     font-size: 1.2rem;
@@ -246,7 +270,8 @@
   
   .title {
     text-align: center;
-    color: white;
+    color: #008F11;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 30px;
     width: 100%;
     font-size: 2.3em;;
@@ -255,7 +280,7 @@
   .button {
     border-radius: 4px;
     border: none;
-    background-color: white;
+    background-color: #4f9557;
     color: black;
     text-align: center;
     text-transform: uppercase;
@@ -298,10 +323,14 @@
 
   button {
     color: white; /* Red background color, adjust as needed */
-    background-color: #7554a0; /* White text color */
+    background-color: #008F11; /* White text color */
     padding: 10px 20px; /* Adjust padding as needed */
     border: none;
     border-radius: 5px; /* Rounded corners */
     cursor: pointer;
     margin: 0 auto;
   }
+
+ body{
+  background-color: black;
+ }
