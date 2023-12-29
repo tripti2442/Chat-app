@@ -2,6 +2,6 @@
 <br>
 Made with React and <a href="https://chatengine.io/">chatengine.io</a>
 <h2>Login-Page</h2>
-![image](./assets/loginpage.jpg)
+<img src="./assets/loginpage.jpg"> </img>
 <h2>Main-Page</h2>
-![image](./assets/mainpage.png)
+<img src="./assets/mainpage.png"> </img>
