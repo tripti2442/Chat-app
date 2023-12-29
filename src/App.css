@@ -83,6 +83,13 @@
     background-color: #4f9557 !important;
   }
   
+  .ce-person-text{
+    color: white;
+  }
+
+  #ce-options-drop-down{
+    background-color: #4f9557 !important;
+  }
   /*.ce-input{
     background-color: #4f9557;
   }
