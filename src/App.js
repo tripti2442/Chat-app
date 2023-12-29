@@ -17,7 +17,7 @@ const handleLogout = () => {
 
   return (
     <>
-      <button onClick={handleLogout}> Logout </button>
+      <button onClick={handleLogout}> <h2>Logout</h2></button>
       <ChatEngine
         height="100vh"
         projectID={projectID}
