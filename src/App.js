@@ -9,15 +9,15 @@ const projectID = 'd8916fd5-0420-428e-9599-8229b8ba73a6';
 const App = () => {
   if (!localStorage.getItem('username')) return <LoginForm />;
 
-  const handleLogout = () => {
-    localStorage.removeItem('username');
-    localStorage.removeItem('password');
-    window.location.reload();
-  };
+const handleLogout = () => {
+  localStorage.removeItem('username');
+  localStorage.removeItem('password');
+  window.location.reload();
+};
 
   return (
     <>
-      <button onSubmit="handleLogout"> Logout </button>
+      <button onClick={handleLogout}> Logout </button>
       <ChatEngine
         height="100vh"
         projectID={projectID}
